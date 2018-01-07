@@ -1,0 +1,131 @@
+
+.container{
+	width: 100%;
+    height:800px;
+}
+.content_ground{
+    position: absolute;
+    top:6rem;
+    width:100%;
+    height:665px;
+    background-image: url('../images/Ground1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    /*background: -moz-linear-gradient(left top, #6CC9B6, #5EB6BA, #529EC2, #4389C7, #3879CB);*/
+    /*background: -webkit-linear-gradient(left top, #6CC9B6, #5EB6BA, #529EC2, #4389C7, #3879CB);*/
+    /*background: -o-linear-gradient(left top, #6CC9B6, #5EB6BA, #529EC2, #4389C7, #3879CB);*/
+    /*-webkit-animation: background-animation 4s infinite linear;*/
+    min-width: 1500px;
+}
+/*@-webkit-keyframes background-animation {*/
+    /*0% {*/
+        /*background-position: 0 0;*/
+    /*}*/
+    /*100% {*/
+        /*background-position: -100% 0;*/
+    /*}*/
+/*}*/
+.content{
+    width: 1200px;
+    margin: 30px auto;
+    height:552px;
+	border: 1px solid rgb(230, 230, 230);
+	box-shadow: 8px 8px 8px gray;
+}
+.content #cont_left{
+	float: left;
+	width: 770px;
+}
+canvas{
+	float: left;
+	background: rgba(255,255,255,0.8);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.content #cont_right{
+	float: left;
+	width: 429px;
+	height: 500px;
+	background: rgba(250, 251, 251,0.8);
+	border-left: 1px solid rgb(230, 230, 230);
+}
+.content #cont_right #cont_right_top{
+	width: 100%;
+	float: left;
+	height: 430px;
+}
+.content #nodeinfo{
+	height: 50px;
+	width: 409px;
+	background: rgba(246, 246, 246,0.8);
+	border-bottom: 1px solid rgb(230, 230, 230);
+	line-height: 50px;
+	font-size: 15px;
+	padding-left: 20px;
+}
+.content #operinfo{
+	font-size: 15px;
+	padding-left: 20px;
+	width: 409px;
+	/*height: 90px;*/
+	border-bottom: 1px solid rgb(230, 230, 230);
+	display: none;
+}
+.content #queryrlt{
+	padding-left: 20px;
+	display: none;
+}
+.content #queryrlt #minlength{
+	color:blue;
+}
+.content #queryrlt #minpaths{
+	color:blue;
+}
+.content #curoper{
+	color:red;
+}
+.content #nodeinfo #nodenum{
+	color:blue;
+	margin-right: 40px;
+	font-weight: bold;
+}
+.content #nodeinfo #pathnum{
+	color: blue;
+	font-weight: bold;
+}
+.content #cont_right #cont_right_bottom{
+	width: 409px;
+	float: left;
+	height: 70px;
+	background: #eee;
+	font-size: 14px;
+	padding-left: 20px;
+	display: none;
+}
+.content #menu{
+	float: left;
+	width: 1180px;
+	height: 60px;
+	background-color: rgb(246, 246, 246);
+	border-top: 1px solid rgb(230, 230, 230);
+	line-height: 60px;
+	padding-left: 20px;
+}
+.content .btn_menu{
+	padding: 4px 10px;
+	height: 28px;
+	background-color: rgb(68, 138, 243);
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	vertical-align: middle;
+	border-radius: 4px;
+	border: 1px solid transparent;
+	margin-right: 10px;
+}
+.content #querypaths{
+	margin-left: 390px;
+}
+

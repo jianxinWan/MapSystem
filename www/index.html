@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>西安邮电大学长安校区导游信息查询服务</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content=" ">
+    <meta name="keywords" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/common.css">
+    <script src="js/Ajax.js"></script>
+</head>
+<body>
+	<header>
+		<div id="header_left">
+			<p>数据结构与算法课程设计</p>
+			<p>西安邮电大学长安校区导游信息查询服务</p>
+		</div>
+		<div id="header_right">
+			<ul>
+				<li><a href="www.xiyoumobile.com">关 于</a></li>
+				<li><a href="js.html">javascript版</a></li>
+				<li style="color:white">首 页</li>
+			</ul>
+		</div>
+	</header>
+	<div class="container">
+        <div class="content_ground">
+            <div class="content">
+                <div id="cont_left">
+                    <canvas id="draw_area" width="770" height="500">
+                        您的浏览器不支持canvas标签,请用较新的浏览器！
+                    </canvas>
+                </div>
+                <div id="cont_right">
+                    <div id="cont_right_top">
+                        <div id="nodeinfo">
+                            顶点数量：<span id="nodenum">0</span> 边数量：<span id="pathnum">0</span>
+                        </div>
+                        <div id="operinfo">
+                            <p>当前操作：<span id="curoper">设置路线</span></p>
+                            <p><span id="startnode"></span></p>
+                            <p><span id="endnode"></span></p>
+                        </div>
+                        <div id="queryrlt">
+                            <p>最短距离：<span id="minlength">0</span></p>
+                            <p>最短路径：<span id="minpaths"></span></p>
+                        </div>
+                    </div>
+                    <div id="cont_right_bottom">
+                        <form action="javascript:;">
+                            <p id="drawnodeinfo" style="margin-bottom:0px;">请输入 景点1 - 景点2 路径长度：</p>
+                            <p style="margin-top:5px;">
+                                <input style="width:200px;" type="text" id="pathlength">
+                                <button id="subbtn">确定</button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+                <div id="menu">
+                    <select class="btn_menu" id="selectMap">
+                        <!--<option>西安邮电大学</option>-->
+                        <!--<option>西北政法大学</option>-->
+                        <!--<option>陕西师范大学</option>-->
+                        <!--<option>China</option>-->
+                    </select>
+                    <button class="btn_menu" id="addnode">添加景点</button>
+                    <button class="btn_menu" id="resetnode">重置景点</button>
+                    <button class="btn_menu" id="setlines">设置路线</button>
+                    <button class="btn_menu" id="selnode">选择景点</button>
+                    <button class="btn_menu" id="dispalyGrah">拓扑图显示</button>
+                    <button class="btn_menu" id="querypaths">最短路径查询</button>
+                </div>
+            </div>
+        </div>
+	</div>
+	<footer>
+		<div class="footer_cont">			
+			<div class="f_content">
+				<p>课程设计</p>
+				<p>课程名称：数据结构与算法</p>
+				<p>设计题目：西安邮电大学长安校区导游信息查询服务</p>
+			</div>
+			<div class="f_content" style="text-align:right">
+				<p> &nbsp;</p>
+				<p> &nbsp;</p>
+				<p> &nbsp;</p>
+				<p> &nbsp;</p>
+			</div>
+		</div>
+	</footer>
+	<script src="js/index.js"></script>
+</body>
+</html>
